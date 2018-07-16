@@ -1,6 +1,8 @@
 <template>
   <div id="banner">
-    <img src="~img/logo.png" alt="">
+    <div class="w1200">
+      <img src="~Img/banner1.png" alt="">
+    </div>
   </div>
 </template>
 
@@ -16,5 +18,5 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-
+  @import './banner.scss';
 </style>

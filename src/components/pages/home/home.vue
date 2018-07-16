@@ -1,5 +1,5 @@
 <template>
-  <div id="home" class="w1200">
+  <div id="home">
     <Banner></Banner>
     <section>
       <ul class="tab">
@@ -13,8 +13,8 @@
 </template>
 
 <script>
-import Banner from 'banner/banner'
-import List from 'List/List'
+import Banner from './banner/banner'
+import List from './list/list'
 
 export default {
   name: 'home',

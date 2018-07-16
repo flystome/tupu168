@@ -2,7 +2,7 @@
   <header class="clearfix">
     <div class="w1200">
       <a href="###" class="logo">
-        <img src="Img/logo.png">
+        <img src="~Img/logo.png">
       </a>
       <div class="link">
         <ul>
@@ -42,7 +42,11 @@ export default {
       text-align: left;
       vertical-align: middle;
       img {
+        width: 30px;
+        height: 30px;
+        background: cover;
         vertical-align: middle;
+        margin-top: 10px;
       }
     }
     .link {
