@@ -3,10 +3,21 @@
     <ul class="clearfix">
       <li>
         <div class="item">
-          <div class="item-img">
+          <div class="item_img">
             <img src="~Img/list1.png" alt="">
           </div>
-
+          <div class="item_detail">
+            <p class="title">&laquo;萌芽熊&raquo;  喜欢你</p>
+            <p class="kind">动漫-三维动画</p>
+            <ul class="action clearfix">
+              <li><i class="fa fa-comment-alt"></i><span class='num'></span></li>
+              <li><i class="fa fa-eye"></i><span class='num'></span></li>
+              <li><i class="fa fa-thumbs-up"><span class='num'></span></i></li>
+            </ul>
+          </div>
+          <div class="item_author">
+            <p><span class='photo'></span></span><span class="name"></span></p>
+          </div>
         </div>
       </li>
       <li>asdfhiw</li>
@@ -30,18 +41,5 @@ export default {
 </script>
 
 <style scoped lang='scss'>
-  #list {
-    width: 1200px;
-    margin: 0 auto 0px;
-    ul {
-      width: 100%;
-      margin-left: -20px;
-      li {
-        width: 20%;
-        float: left;
-        padding-left: 20px;
-        box-sizing: border-box;
-      }
-    }
-  }
+  @import './list.scss';
 </style>
